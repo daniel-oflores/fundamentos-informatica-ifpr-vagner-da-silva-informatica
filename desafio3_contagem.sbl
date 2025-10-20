@@ -1,0 +1,10 @@
+$DECIMAL
+LOAD 5
+
+DEC AX
+CMP 0
+
+JZ 8
+JMP 2
+
+HLT
